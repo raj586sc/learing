@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+		<style>
+		form 
+		        {
+				  height:450px;
+				  width:500px;
+				  background-color:darkgreen;
+				  border:8px solid white;
+				  text-style:2px;
+				  margin:0 auto;
+				  padding:10px;
+				  		   
+
+		          }
+				  form{
+				  border-left-color:blue;
+				 
+				  }
+				    form{
+				  border-right-color:green;
+				  }
+				    form{
+				  border-top-color:brown;
+				  }
+				    form{
+				  border-bottom-color:silver;
+				  }
+				    form{
+				  margin-top:100px;
+				  }
+				  
+				  input[type='text'],  input[type='password']{
+				   border:3px ;
+				   height:20px;
+				   width:250px 
+				   }
+				   select{
+				   border:1px solid black ;
+				   height:20px;
+				   width:200px
+				   }
+				    input[type='text']:hover
+					{border-bottom:2px solid red;
+					
+					}
+					  input[type='password']:hover
+					{border-bottom:2px solid red;
+					}
+					h1{
+					text-align:center}
+					hr{
+					height:2px;
+					width:500px;
+					background-color:maroon;
+					}
+					 input[type='text']:focus,  input[type='password']:focus,select:focus{
+				background-color: lightblue;
+				   
+				   }
+				   #container{
+				   height:645px;
+				   width:1335px;
+				   border:2px solid black;
+				   background-color:lightblue;
+		
+				   }
+		   
+		   
+		   </style>
+</head>
+
+<body><div id="container">
+
+	<form action="post"> 
+	<h1>Sign In</h1>
+	<hr>
+             <table>
+			
+			             <tr>
+						        <td>
+
+	<label for="a"> First  Name</label>
+	                                    </td>
+	                                     <td id='raj'>
+	<input type="text" name="first"id='a' required>
+	                            </td>
+					     </tr>
+						 <tr>
+						         <td>
+	
+    <label for='b'>Last Name</label> 
+	                               </td>
+								   <td  id='raj'>
+    <input type="text" name="last"id='b' required>
+	                            </td>
+						     </tr>
+							 <tr>
+							         <td>
+	<label for="c">password</label>
+	                                  </td>
+									  <td  id='raj'>
+	<input type="password" name="pass"id='c' required>
+		                             </td>
+						     </tr>
+							 <tr>
+							         <td>
+	<label for="c">Re-password</label>
+	                                 </td>
+									 <td  id='raj'>
+	<input type="password"name="repass" id='c' required>
+		                             </td>
+						     </tr>
+							 <tr>
+							         <td>
+    <label for="e">user name</label> 
+	                              </td>
+	                              <td  id='raj'>
+	<input type="text" nmae="user"id='e' required>
+		                             </td>
+						     </tr>
+							 <tr>
+							         <td>
+	 <label for="f">contact</label>
+	                                  </td>
+									  <td  id='raj'>
+	<input type="text"name="con" id='f' required>
+		                             </td>
+						     </tr>
+							 <tr>
+							         <td>
+	 <label >Gender</label>
+	                                  </td>
+									  <td>
+	male:<input type="radio" name="gender" value="male" required/><br>female:<input type="radio" name="gender" value="female" required/>
+		                             </td>
+						     </tr>
+							 
+							 <tr>
+							 <td> 
+     <label >Select The programming Language:</label>							 
+									</td>
+							         <td>
+Java:<input type="checkbox" name="Select The programming Language" value="java"required/><br>pyton:<input type="checkbox" name="Select The programming Language" value="Python"required/>									 
+	                                 </td>
+								</tr>
+								 <tr>    
+									<td>
+      <label for="State">State</label>	</td>
+	  <td>
+	  <select id="state"name="state" required/>
+	  <option value="state">select state</option>
+	  <option value="mh">Maharastra</option>
+	  <option value="gj">Gujrat</option>
+	  <option value="up">utterpardesh</option>
+	  </td>
+	  </tr>
+	  <br>
+	  <br>
+	  <tr>
+	  <td></td>
+	  <td>
+	  <input type="submit"value="click here to submit"name="submit-form">
+			   </table>
+	
+	
+	</form>
+	</div>
+	
+</body>
+</html>
